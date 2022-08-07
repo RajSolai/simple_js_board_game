@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dhanuj Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Dhanuj Binary Game</h1>
+      <h2>Play by tapping on board cells</h2>
+      <p>This game is same as a X-O board game but with 0's and 1's </p>
+    </div>
+    <div class="game">
+      <div class="board">
+        <div class="row">
+          <div class="cell" id="00" onclick="changeState(this.id,0,0)"></div>
+          <div class="cell" id="01" onclick="changeState(this.id,0,1)"></div>
+          <div class="cell" id="02" onclick="changeState(this.id,0,2)"></div>
+        </div>
+        <div class="row">
+          <div class="cell" id="10" onclick="changeState(this.id,1,0)"></div>
+          <div class="cell" id="11" onclick="changeState(this.id,1,1)"></div>
+          <div class="cell" id="12" onclick="changeState(this.id,1,2)"></div>
+        </div>
+        <div class="row">
+          <div class="cell" id="20" onclick="changeState(this.id,2,0)"></div>
+          <div class="cell" id="21" onclick="changeState(this.id,2,1)"></div>
+          <div class="cell" id="22" onclick="changeState(this.id,2,2)"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
