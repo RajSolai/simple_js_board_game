@@ -32,60 +32,74 @@ let changeState = (elementId, xPosition, yPosition) => {
 
 let checkMatrix = () => {
   if (gameMatrix[0][0] == 0 && gameMatrix[0][1] == 0 && gameMatrix[0][2] == 0) {
-    alert("0 WON THE GAME");
-    window.location.reload();
+    Swal.fire("0 WON THE GAME").then(() => {
+      window.location.reload();
+    });
   }
   if (gameMatrix[1][0] == 0 && gameMatrix[1][1] == 0 && gameMatrix[1][2] == 0) {
-    alert("0 WON THE GAME");
-    window.location.reload();
+    Swal.fire("0 WON THE GAME").then(() => {
+      window.location.reload();
+    });
   }
   if (gameMatrix[2][0] == 0 && gameMatrix[2][1] == 0 && gameMatrix[2][2] == 0) {
-    alert("0 WON THE GAME");
-    window.location.reload();
+    Swal.fire("0 WON THE GAME").then(() => {
+      window.location.reload();
+    });
   }
   if (gameMatrix[0][0] == 0 && gameMatrix[1][0] == 0 && gameMatrix[2][0] == 0) {
-    alert("0 WON THE GAME");
-    window.location.reload();
+    Swal.fire("0 WON THE GAME").then(() => {
+      window.location.reload();
+    });
   }
   if (gameMatrix[0][1] == 0 && gameMatrix[1][1] == 0 && gameMatrix[2][1] == 0) {
-    alert("0 WON THE GAME");
-    window.location.reload();
+    Swal.fire("0 WON THE GAME").then(() => {
+      window.location.reload();
+    });
   }
   if (gameMatrix[0][2] == 0 && gameMatrix[1][2] == 0 && gameMatrix[2][2] == 0) {
-    alert("0 WON THE GAME");
-    window.location.reload();
+    Swal.fire("0 WON THE GAME").then(() => {
+      window.location.reload();
+    });
   }
   if (gameMatrix[0][0] == 0 && gameMatrix[1][1] == 0 && gameMatrix[2][2] == 0) {
-    alert("0 WON THE GAME");
-    window.location.reload();
+    Swal.fire("0 WON THE GAME").then(() => {
+      window.location.reload();
+    });
   }
   //
   if (gameMatrix[0][0] == 1 && gameMatrix[0][1] == 1 && gameMatrix[0][2] == 1) {
-    alert("1 WON THE GAME");
-    window.location.reload();
+    Swal.fire("1 WON THE GAME").then(() => {
+      window.location.reload();
+    });
   }
   if (gameMatrix[1][0] == 1 && gameMatrix[1][1] == 1 && gameMatrix[1][2] == 1) {
-    alert("1 WON THE GAME");
-    window.location.reload();
+    Swal.fire("1 WON THE GAME").then(() => {
+      window.location.reload();
+    });
   }
   if (gameMatrix[2][0] == 1 && gameMatrix[2][1] == 1 && gameMatrix[2][2] == 1) {
-    alert("1 WON THE GAME");
-    window.location.reload();
+    Swal.fire("1 WON THE GAME").then(() => {
+      window.location.reload();
+    });
   }
   if (gameMatrix[0][0] == 1 && gameMatrix[1][0] == 1 && gameMatrix[2][0] == 1) {
-    alert("1 WON THE GAME");
-    window.location.reload();
+    Swal.fire("1 WON THE GAME").then(() => {
+      window.location.reload();
+    });
   }
   if (gameMatrix[0][1] == 1 && gameMatrix[1][1] == 1 && gameMatrix[2][1] == 1) {
-    alert("1 WON THE GAME");
-    window.location.reload();
+    Swal.fire("1 WON THE GAME").then(() => {
+      window.location.reload();
+    });
   }
   if (gameMatrix[0][2] == 1 && gameMatrix[1][2] == 1 && gameMatrix[2][2] == 1) {
-    alert("1 WON THE GAME");
-    window.location.reload();
+    Swal.fire("1 WON THE GAME").then(() => {
+      window.location.reload();
+    });
   }
   if (gameMatrix[0][0] == 1 && gameMatrix[1][1] == 1 && gameMatrix[2][2] == 1) {
-    alert("1 WON THE GAME");
-    window.location.reload();
+    Swal.fire("1 WON THE GAME").then(() => {
+      window.location.reload();
+    });
   }
 };
